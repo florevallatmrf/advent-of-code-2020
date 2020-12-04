@@ -38,7 +38,7 @@ function treesInAllTrips(data) {
     allTrees.push(findTreesInSpecificShape(map, [5, 1]))
     allTrees.push(findTreesInSpecificShape(map, [7, 1]))
     allTrees.push(findTreesInSpecificShape(map, [1, 2]))
-    console.log(allTrees);
+
     return allTrees.reduce(function(accumulator, currentValue, currentIndex, array) {
         return accumulator * currentValue
     })
@@ -52,7 +52,7 @@ function readAndProcess(inputFile) {
     });
 }
 
-readAndProcess('input.txt');
+// readAndProcess('input.txt');
 
 module.exports = {
     treesInTrip,
