@@ -94,7 +94,7 @@ function readAndProcess(inputFile) {
     });
 }
 
-readAndProcess('input.txt');
+// readAndProcess('input.txt');
 
 module.exports = {
     onePassport,
